@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Estoque RFID</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+    <div id="logo-div">
+        <img src="https://img-s2.onedio.com/id-568212c3779445a34b3a3887/rev-0/w-900/h-654/f-gif/s-11672a4e1e94e77a8d550185871ddd0745a77432.gif" alt="logo">
+    </div>
+    <div id="container">
+        <div id="form-div">
+            <h1>Novo objeto</h1>
+            <form action="/get">
+                <label>Aproxime o código do objeto ao leitor</label><br>
+                <input class="inputs" type="text" name="rfid" id="rfid-tag" value=%RFID_TAG%><br>
+                <label>Informação adicional</label><br>
+                <input class="inputs" type="text" name="info" required="required" placeholder="Ex: Caixa Média, Caixa Grande"><br>
+                <input type="submit" class="button" value="Cadastrar">
+            </form>
+        </div>
+        <hr>
+        <div>
+            <h1 class="stock">Objetos cadastrados</h1>
+            %TABLE%
+        </div>
+    </div>
+</body>
+<script>
+    setInterval(function () {
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                document.getElementById("rfid-tag").value = this.responseText;
+            }
+        };
+        xhttp.open("GET", "/rfid", true);
+        xhttp.send();
+    }, 1000);
+</script>
+
+</html>
