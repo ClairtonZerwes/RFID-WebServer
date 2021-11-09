@@ -20,6 +20,7 @@
  *  VCC = 3.3V
  *  LD_VD = D2
  *  LD_VM = D4
+ *  BZR   = D9
  */
 
 /* Inclusão de Bibliotecas */
@@ -298,7 +299,6 @@ void loop() {
     
     if (user_index < 0) {
       Serial.printf("Nenhum objeto encontrado\n");
-      static int i = 0;
       digitalWrite(LED_RED, HIGH);
       tone(D9, 2500, 1000);
       delay(350);
