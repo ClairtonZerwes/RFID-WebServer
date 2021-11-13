@@ -43,3 +43,10 @@
 ## # Finalizando
 
 ### Após todos esses passos basta rodar o código na IDE, quando ele terminar de compilar abra o Console e desative a Auto-rolagem, em alguns segundos irá aparecer o IP alocado para uso embaixo de [CONNECTED] (caso você já ter ajustado no código o campo `char ssid[]` e `char password[]` com os dados de sua rede, do contrário irá ficar conectando infinitamente).
+
+#
+
+<p align="center">
+  <img src="./images/RFID-WEB.png" alt="print do Navegador"/><br>
+  Print do Navegador
+</p>
