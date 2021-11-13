@@ -6,30 +6,29 @@
 
 #
 
-<p align="center">
-  <img src="./images/RFID-WEB.png" alt="print do Navegador"/><br>
-  Print do Navegador
-</p>
-
 ## # Hardware Necessário
 
-- Módulo Rfid Rc522
-- Cartão
-- Tag Mifare 13.56mhz
+- Módulo RFID-RC522
+- Cartão Mifare 13.56Mhz
+- Tag Mifare 13.56Mhz
 - Buzzer Ativo 5V
 - Protoboard
 - ESP8266 D1 R1
-- LED Vermelho, Verde e Azul (ou LED RGB)
-- 3 resistores de 330R
+- LED Vermelho e Verde (ou LED RGB)
+- 32 resistores de 330R
 - Cabos para conexão
+
+#
 
 ## # Ligações no ESP8266 D1 R1 (respectivamente)
 
-- LEDs (ou LED RGB) conectados em D2 e D4 (Verde e Vermelho)
-- Módulo Rfid Rc522 conectado em D8, D5, D7, D6, D3, 3.3V e GND (SDA, SCK, MOSI, MISO, RST, VCC e GND)
-- Buzzer Ativo 5V conectado em A9 e GND (A0, GND)
+- LEDs (ou LED RGB) conectados em `D2 e D4` (Verde e Vermelho)
+- Módulo RFID-RC522 conectado em `D8, D5, D7, D6, D3, 3.3V e GND` (SDA, SCK, MOSI, MISO, RST, VCC e GND)
+- Buzzer Ativo 5V conectado em `D9 e GND`
 
-## # Inclusão das seguintes bibliotecas
+#
+
+## # Inclusão de Blibiotecas e Auxiliares
 
 - ESP8266WiFi
 - ESPAsyncTCP
@@ -39,15 +38,8 @@
 - MFRC522
 - vector
 
-## # Preparação do Ambiente
-
-### Para executar esse código, foi utilizado a IDE do Arduino com algumas personalizações, nas quais são:
-
-<br>
-
-
-
+#
 
 ## # Finalizando
 
-### Após todos esses passos basta rodar o código na IDE, quando ele terminar de compilar abra o Console e desative a Auto-rolagem, em alguns segundos irá aparecer o IP alocado para uso embaixo de [CONNECTED] (caso você já ter ajustado no código o campo char ssid[] e char pass[] com os dados de sua rede, do contrário irá ficar conectando infinitamente).
+### Após todos esses passos basta rodar o código na IDE, quando ele terminar de compilar abra o Console e desative a Auto-rolagem, em alguns segundos irá aparecer o IP alocado para uso embaixo de [CONNECTED] (caso você já ter ajustado no código o campo `char ssid[]` e `char password[]` com os dados de sua rede, do contrário irá ficar conectando infinitamente).
