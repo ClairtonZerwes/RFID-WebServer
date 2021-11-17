@@ -30,13 +30,45 @@
 
 ## # Inclusão de Blibiotecas e Auxiliares
 
-- ESP8266WiFi
-- ESPAsyncTCP
-- ESPAsyncWebServer
-- FS
-- SPI
-- MFRC522
-- vector
+
+
+- Download da biblioteca ESP8266WiFi e a inclusão da mesma em Sketch>incluir biblioteca>adicionar biblioteca.zip
+
+<p align="center">
+  <img src="./images/ESP8266WIFI.png" alt="ESP8266WIFI"/><br>
+</p>
+
+- Download da biblioteca ESPAsyncTCP e a inclusão da mesma em Sketch>incluir biblioteca>adicionar biblioteca.zip
+
+<p align="center">
+  <img src="./images/ESPAsyncTCP.png" alt="ESPAsyncTCP"/><br>
+</p>
+
+- Download da biblioteca <ESPAsyncWebServer e a inclusão da mesma em Sketch>incluir biblioteca>adicionar biblioteca.zip
+
+<p align="center">
+  <img src="./images/ESPAsyncWebserver.png" alt="ESPAsyncWebserver"/><br>
+</p>
+
+- Download da biblioteca ESP8266FS e a inclusão da mesma em Sketch>incluir biblioteca>adicionar biblioteca.zip
+
+<p align="center">
+  <img src="./images/FS.png" alt="ESP8266FS"/><br>
+</p>
+
+- Seleção do SPI em Sketch>incluir biblioteca>SPI
+
+<p align="center">
+  <img src="./images/SPI.png" alt="SPI"/><br>
+</p>
+
+- Instalação da biblioteca MFRC522 já inclusa no arduino em Sketch>incluir biblioteca>gerenciar bibliotecas
+
+<p align="center">
+  <img src="./images/MFRC522.png" alt="MFRC522"/><br>
+</p>
+
+- Vector(array) já vem incluso no arduíno, não é necessário instalação. O Vector é uma coleção de variáveis que são acessadas com um número índice. Vetores do arduíno são baseados na linguagem C++.
 
 #
 
