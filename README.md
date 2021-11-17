@@ -30,8 +30,6 @@
 
 ## # Inclusão de Blibiotecas e Auxiliares
 
-
-
 - Download da biblioteca ESP8266WiFi e a inclusão da mesma em Sketch>incluir biblioteca>adicionar biblioteca.zip
 
 <p align="center">
@@ -44,13 +42,13 @@
   <img src="./images/ESPAsyncTCP.png" alt="ESPAsyncTCP"/><br>
 </p>
 
-- Download da biblioteca <ESPAsyncWebServer e a inclusão da mesma em Sketch>incluir biblioteca>adicionar biblioteca.zip
+- Download da biblioteca ESPAsyncWebServer e a inclusão da mesma em Sketch>incluir biblioteca>adicionar biblioteca.zip
 
 <p align="center">
   <img src="./images/ESPAsyncWebserver.png" alt="ESPAsyncWebserver"/><br>
 </p>
 
-- Download da biblioteca ESP8266FS e a inclusão da mesma em Sketch>incluir biblioteca>adicionar biblioteca.zip
+- Download da biblioteca ESP8266SPIFFS e a inclusão da mesma em Sketch>incluir biblioteca>adicionar biblioteca.zip
 
 <p align="center">
   <img src="./images/FS.png" alt="ESP8266FS"/><br>
