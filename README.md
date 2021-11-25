@@ -15,7 +15,7 @@
 - Protoboard
 - ESP8266 D1 R1
 - LED Vermelho e Verde (ou LED RGB)
-- 32 resistores de 330R
+- 2 resistores de 330R
 - Cabos para conexão
 
 #
