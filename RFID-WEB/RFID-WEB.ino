@@ -1,6 +1,6 @@
 
 /**
- * Trabalho da discplina de Comunicação de Dados (Faculdade UNISATC - Engenharia da Computação)
+ * Trabalho da disciplina de Comunicação de Dados (Faculdade UNISATC - Engenharia da Computação)
  * com objetivo de simular a autenticação de produtos de um estoque.
  * 
  * Foi disponibilizado o uso de um módulo RFID-RC522 para realizar a validação das TAGs
